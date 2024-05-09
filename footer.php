@@ -21,6 +21,7 @@
         }
     }
 
+
     @media (max-width: 2700px) {
 
         footer .boat-section {
@@ -296,11 +297,12 @@
         }
 
         .copyright-text p {
-            margin-top:0;
+            margin-top: 0;
             margin-bottom: 0;
         }
     }
-    @media (max-width:576px){
+
+    @media (max-width:576px) {
         .scl-icn-foot {
             margin-bottom: 0px;
         }
@@ -521,54 +523,66 @@
         const stickyForm = document.getElementById('stickyFormContainer');
         const stickyBtn = document.getElementById('stickingBtn');
         const closeIt = document.getElementById('closeBtn');
-		let isFormVisible = false;
+        let isFormVisible = false;
         // events
         stickyBtn.addEventListener('mouseenter', function() {
             if (!isFormVisible) {
-				stickyForm.style.display = 'flex';
-				stickyForm.animate(
-					[{ transform: 'rotateY(0deg)' }],
-					{ duration: 300, fill: 'forwards' }
-				);
-				isFormVisible = true;
-			}
+                stickyForm.style.display = 'flex';
+                stickyForm.animate(
+                    [{
+                        transform: 'rotateY(0deg)'
+                    }], {
+                        duration: 300,
+                        fill: 'forwards'
+                    }
+                );
+                isFormVisible = true;
+            }
         });
         closeIt.addEventListener('click', function() {
-			if (isFormVisible) {
-				stickyForm.animate(
-					[{ transform: 'rotateY(-90deg)' }],
-					{ duration: 300, fill: 'forwards' }
-				);
-				setTimeout(() => {
-					stickyForm.style.display = 'none';
-					isFormVisible = false;
-				}, 300); // Adjust the delay as needed (in milliseconds)
-				isFormVisible = false;
-			}
+            if (isFormVisible) {
+                stickyForm.animate(
+                    [{
+                        transform: 'rotateY(-90deg)'
+                    }], {
+                        duration: 300,
+                        fill: 'forwards'
+                    }
+                );
+                setTimeout(() => {
+                    stickyForm.style.display = 'none';
+                    isFormVisible = false;
+                }, 300); // Adjust the delay as needed (in milliseconds)
+                isFormVisible = false;
+            }
         });
         formShowed.addEventListener('mouseleave', function() {
             if (isFormVisible) {
-				stickyForm.animate(
-					[{ transform: 'rotateY(-90deg)' }],
-					{ duration: 300, fill: 'forwards' }
-				);
-				setTimeout(() => {
-					stickyForm.style.display = 'none';
-					isFormVisible = false;
-				}, 300); // Adjust the delay as needed (in milliseconds)
-				isFormVisible = false;
-			}
+                stickyForm.animate(
+                    [{
+                        transform: 'rotateY(-90deg)'
+                    }], {
+                        duration: 300,
+                        fill: 'forwards'
+                    }
+                );
+                setTimeout(() => {
+                    stickyForm.style.display = 'none';
+                    isFormVisible = false;
+                }, 300); // Adjust the delay as needed (in milliseconds)
+                isFormVisible = false;
+            }
         });
-      const inputElements = document.querySelectorAll('#stickingForm input');
-      const textareaElements = document.querySelectorAll('#stickingForm textarea');
+        const inputElements = document.querySelectorAll('#stickingForm input');
+        const textareaElements = document.querySelectorAll('#stickingForm textarea');
 
-      inputElements.forEach(function(inputElement) {
-        inputElement.setAttribute('autocomplete', 'off');
-      });
+        inputElements.forEach(function(inputElement) {
+            inputElement.setAttribute('autocomplete', 'off');
+        });
 
-      textareaElements.forEach(function(textareaElement) {
-        textareaElement.setAttribute('autocomplete', 'off');
-      });
+        textareaElements.forEach(function(textareaElement) {
+            textareaElement.setAttribute('autocomplete', 'off');
+        });
     });
 </script>
 

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Functions and definitions
  *
@@ -13,6 +14,7 @@
 if (version_compare($GLOBALS['wp_version'], '5.3', '<')) {
 	require get_template_directory() . '/inc/back-compat.php';
 }
+
 
 if (!function_exists('twenty_twenty_one_setup')) {
 	/**
@@ -1324,7 +1326,7 @@ function get_all_data_of_sailboat_using_filter()
 				// Ensure the model name is not already in the $model_names array
 				if (!in_array($model_name, $model_names)) {
 					$model_names[] = $model_name; // Add the unique model name to the array
-					$model_list_data .= "<li class='filter-list-model Model ".str_replace(' ','_',$make_name)."' id='Model_" . $count_make . "'>" . $model_name . "</li>";
+					$model_list_data .= "<li class='filter-list-model Model " . str_replace(' ', '_', $make_name) . "' id='Model_" . $count_make . "'>" . $model_name . "</li>";
 					$count_make++; // Increment $count_make for each unique model
 				}
 			}
@@ -1354,105 +1356,104 @@ function get_all_data_of_sailboat_using_filter()
 		if (($checked_val_match || empty($get_checked_value)) && ($make_match || empty($makes)) && ($model_match || empty($models)) && ($length_match || empty($lengths_from) && empty($lengths_to)) && ($year_match || empty($years)) && ($price_match || empty($prices_from) && empty($prices_to)) && ($sailboat_match || empty($sailboat_type)) && ($status_match || empty($status)) && ($location_match || empty($locations))) {
 			$merge_array[] = $item;
 		}
-		if($make_match && $model_match){
-			$make_found .= strtolower($item['make']).",";
+		if ($make_match && $model_match) {
+			$make_found .= strtolower($item['make']) . ",";
 			$merge_array[] = $item;
 		}
-		if($make_match && !$model_match){
+		if ($make_match && !$model_match) {
 			$merge_array[] = $item;
 		}
 	}
-	
-	$makes_found_list = array_unique(explode(",",rtrim($make_found)));
+
+	$makes_found_list = array_unique(explode(",", rtrim($make_found)));
 	$merge_array = array_unique($merge_array, SORT_REGULAR);
 
-	if(!empty($makes) && !empty($models) && !empty($makes_found_list)){
-	$make_results=array_filter($merge_array,function($item) use($makes_found_list){
-		return !(in_array(strtolower($item["make"]),array_map('strtolower', $makes_found_list)));
-	});
-	$model_results=array_filter($merge_array,function($item) use($models){
-		return in_array(strtolower($item["model"]),array_map('strtolower', $models));
-	});
+	if (!empty($makes) && !empty($models) && !empty($makes_found_list)) {
+		$make_results = array_filter($merge_array, function ($item) use ($makes_found_list) {
+			return !(in_array(strtolower($item["make"]), array_map('strtolower', $makes_found_list)));
+		});
+		$model_results = array_filter($merge_array, function ($item) use ($models) {
+			return in_array(strtolower($item["model"]), array_map('strtolower', $models));
+		});
 
-	$merge_array = array_merge($model_results,$make_results);
+		$merge_array = array_merge($model_results, $make_results);
 	}
 
-	if(!empty($sailboat_type)){
-	$merge_array=array_filter($merge_array,function($item) use($sailboat_type){
-		if(is_array($item['class'])){
-			return in_array($item['class'][0],$sailboat_type);
-		}
-		return in_array($item["class"],$sailboat_type);
-	});
+	if (!empty($sailboat_type)) {
+		$merge_array = array_filter($merge_array, function ($item) use ($sailboat_type) {
+			if (is_array($item['class'])) {
+				return in_array($item['class'][0], $sailboat_type);
+			}
+			return in_array($item["class"], $sailboat_type);
+		});
 	}
 
 	if (!empty($lengths_from)) {
-	$original_results = $merge_array;
-	$merge_array = [];
-	foreach (array_combine($lengths_from, $lengths_to) as $from => $to) {
-		// Use array_filter to filter the results for the current length range
-		$resultsInRange = array_filter($original_results, function ($item) use ($from, $to) {
-			$length = (int)$item['length'];
-			if($to == ""){
-			return ($length >= (int)$from); 
-			}
-			return ($length >= (int)$from) && ($length <= (int)$to);
+		$original_results = $merge_array;
+		$merge_array = [];
+		foreach (array_combine($lengths_from, $lengths_to) as $from => $to) {
+			// Use array_filter to filter the results for the current length range
+			$resultsInRange = array_filter($original_results, function ($item) use ($from, $to) {
+				$length = (int)$item['length'];
+				if ($to == "") {
+					return ($length >= (int)$from);
+				}
+				return ($length >= (int)$from) && ($length <= (int)$to);
+			});
+
+			// Concatenate the filtered results to the $merge_array array
+			$merge_array = array_merge($merge_array, $resultsInRange);
+		}
+	}
+
+
+	if (!empty($years)) {
+		$merge_array = array_filter($merge_array, function ($item) use ($years) {
+			return in_array($item["year"], $years); //$item["year"] == $year;
 		});
-
-		// Concatenate the filtered results to the $merge_array array
-		$merge_array = array_merge($merge_array, $resultsInRange);
-	}
-	}
-
-
-	if(!empty($years)){
-	$merge_array=array_filter($merge_array,function($item) use($years){
-		return in_array($item["year"],$years); //$item["year"] == $year;
-	});
 	}
 
 	if (!empty($prices_from)) {
-	$original_results = $merge_array;
-	$merge_array = [];
-	foreach (array_combine($prices_from, $prices_to) as $from => $to) {
-		// Use array_filter to filter the results for the current price range
-		$resultsInRange = array_filter($original_results, function ($item) use ($from, $to) {
-			$price = (int)$item['price'];
-			if($to == ""){
-			return ($price >= (int)$from); 
-			}
-			return ($price >= (int)$from) && ($price <= (int)$to);
-		});
+		$original_results = $merge_array;
+		$merge_array = [];
+		foreach (array_combine($prices_from, $prices_to) as $from => $to) {
+			// Use array_filter to filter the results for the current price range
+			$resultsInRange = array_filter($original_results, function ($item) use ($from, $to) {
+				$price = (int)$item['price'];
+				if ($to == "") {
+					return ($price >= (int)$from);
+				}
+				return ($price >= (int)$from) && ($price <= (int)$to);
+			});
 
-		// Concatenate the filtered results to the $merge_array array
-		$merge_array = array_merge($merge_array, $resultsInRange);
-	}
-	}
-
-	if(!empty($locations)){
-	$merge_array=array_filter($merge_array,function($item) use($locations){
-		if(is_array($item['location'])){
-			return in_array($item['location']['BoatCityName'],$locations);
+			// Concatenate the filtered results to the $merge_array array
+			$merge_array = array_merge($merge_array, $resultsInRange);
 		}
-		return in_array($item["location"],$locations);
-	});
 	}
 
-	if(!empty($status)){
-	$merge_array=array_filter($merge_array,function($item) use($status){
-		return in_array(strtolower($item["status"]),array_map('strtolower',$status));
-	});
-	}
-	if(!empty($get_checked_value)){
-	$merge_array=array_filter($merge_array,function($item) use($get_checked_value){
-		return in_array(strtolower($item["saleclasscode"]),array_map('strtolower',$get_checked_value));
-	});
+	if (!empty($locations)) {
+		$merge_array = array_filter($merge_array, function ($item) use ($locations) {
+			if (is_array($item['location'])) {
+				return in_array($item['location']['BoatCityName'], $locations);
+			}
+			return in_array($item["location"], $locations);
+		});
 	}
 
-	if(empty($makes) && empty($models) && empty($sailboat_type) && empty($lengths_from) && empty($prices_from) && empty($years) && empty($status) && empty($get_checked_value) && empty($locations))
-	{
-	// Use usort to sort the array by both 'status' and 'year'
-		usort($merge_array,function($a, $b) {
+	if (!empty($status)) {
+		$merge_array = array_filter($merge_array, function ($item) use ($status) {
+			return in_array(strtolower($item["status"]), array_map('strtolower', $status));
+		});
+	}
+	if (!empty($get_checked_value)) {
+		$merge_array = array_filter($merge_array, function ($item) use ($get_checked_value) {
+			return in_array(strtolower($item["saleclasscode"]), array_map('strtolower', $get_checked_value));
+		});
+	}
+
+	if (empty($makes) && empty($models) && empty($sailboat_type) && empty($lengths_from) && empty($prices_from) && empty($years) && empty($status) && empty($get_checked_value) && empty($locations)) {
+		// Use usort to sort the array by both 'status' and 'year'
+		usort($merge_array, function ($a, $b) {
 			if (strtolower(strip_tags($a['status'])) == 'in-stock' && strtolower(strip_tags($b['status'])) != 'in-stock') {
 				return -1;
 			} elseif (strtolower(strip_tags($a['status'])) != 'in-stock' && strtolower(strip_tags($b['status'])) == 'in-stock') {
