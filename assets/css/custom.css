@@ -1,0 +1,4512 @@
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../webfonts//CarlaSansRegular.eot");
+    src: url("../webfonts//CarlaSansRegular.eot?#iefix") format("embedded-opentype"), url("../webfonts//CarlaSansRegular.woff2") format("woff2"), url("../webfonts//CarlaSansRegular.woff") format("woff"), url("../webfonts//CarlaSansRegular.ttf") format("truetype"), url("../webfonts//CarlaSansRegular.svg#CarlaSansRegular") format("svg"); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../webfonts//CarlaSansBold.eot");
+    src: url("../webfonts//CarlaSansBold.eot?#iefix") format("embedded-opentype"), url("../webfonts//CarlaSansBold.woff2") format("woff2"), url("../webfonts//CarlaSansBold.woff") format("woff"), url("../webfonts//CarlaSansBold.ttf") format("truetype"), url("../webfonts//CarlaSansBold.svg#CarlaSansBold") format("svg"); 
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../webfonts//CarlaSansRegular_1.eot");
+    src: url("../webfonts//CarlaSansRegular_1.eot?#iefix") format("embedded-opentype"), url("../webfonts//CarlaSansRegular_1.svg#CarlaSansRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../webfonts//CarlaSansLight.eot");
+    src: url("../webfonts//CarlaSansLight.eot?#iefix") format("embedded-opentype"), url("../webfonts//CarlaSansLight.woff2") format("woff2"), url("../webfonts//CarlaSansLight.woff") format("woff"), url("../webfonts//CarlaSansLight.ttf") format("truetype"), url("../webfonts//CarlaSansLight.svg#CarlaSansLight") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../webfonts//CarlaSansBold_1.eot");
+    src: url("../webfonts//CarlaSansBold_1.eot?#iefix") format("embedded-opentype"), url("../webfonts//CarlaSansBold_1.woff2") format("woff2"), url("../webfonts//CarlaSansBold_1.woff") format("woff"), url("../webfonts//CarlaSansBold_1.ttf") format("truetype"), url("../webfonts//CarlaSansBold_1.svg#CarlaSansBold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../webfonts//CarlaSansLight_1.eot");
+    src: url("../webfonts//CarlaSansLight_1.eot?#iefix") format("embedded-opentype"), url("../webfonts//CarlaSansLight_1.woff2") format("woff2"), url("../webfonts//CarlaSansLight_1.woff") format("woff"), url("../webfonts//CarlaSansLight_1.ttf") format("truetype"), url("../webfonts//CarlaSansLight_1.svg#CarlaSansLight") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../webfonts//CarlaSansSemibold.eot");
+    src: url("../webfonts//CarlaSansSemibold.eot?#iefix") format("embedded-opentype"), url("../webfonts//CarlaSansSemibold.woff2") format("woff2"), url("../webfonts//CarlaSansSemibold.woff") format("woff"), url("../webfonts//CarlaSansSemibold.ttf") format("truetype"), url("../webfonts//CarlaSansSemibold.svg#CarlaSansSemibold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../webfonts//CarlaSansSemibold_1.eot");
+    src: url("../webfonts//CarlaSansSemibold_1.eot?#iefix") format("embedded-opentype"), url("../webfonts//CarlaSansSemibold_1.svg#CarlaSansSemibold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Avenir LT Std";
+    src: url("../webfonts//AvenirLTStd-Book.eot");
+    src: url("../webfonts//AvenirLTStd-Book.eot?#iefix") format("embedded-opentype"), url("../webfonts//AvenirLTStd-Book.woff2") format("woff2"), url("../webfonts//AvenirLTStd-Book.woff") format("woff"), url("../webfonts//AvenirLTStd-Book.ttf") format("truetype"), url("../webfonts//AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Avenir LT Std";
+    src: url("../webfonts//AvenirLTStd-Black.eot");
+    src: url("../webfonts//AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"), url("../webfonts//AvenirLTStd-Black.woff2") format("woff2"), url("../webfonts//AvenirLTStd-Black.woff") format("woff"), url("../webfonts//AvenirLTStd-Black.ttf") format("truetype"), url("../webfonts//AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Avenir LT Std";
+    src: url("../webfonts//AvenirLTStd-Roman.eot");
+    src: url("../webfonts//AvenirLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("../webfonts//AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Avenir LT Std";
+    src: url("../webfonts//AvenirLTStd-Book.eot");
+    src: url("../webfonts//AvenirLTStd-Book.eot?#iefix") format("embedded-opentype"), url("../webfonts//AvenirLTStd-Book.woff2") format("woff2"), url("../webfonts//AvenirLTStd-Book.woff") format("woff"), url("../webfonts//AvenirLTStd-Book.ttf") format("truetype"), url("../webfonts//AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Avenir LT Std";
+    src: url("../webfonts//AvenirLTStd-Black.eot");
+    src: url("../webfonts//AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"), url("../webfonts//AvenirLTStd-Black.woff2") format("woff2"), url("../webfonts//AvenirLTStd-Black.woff") format("woff"), url("../webfonts//AvenirLTStd-Black.ttf") format("truetype"), url("../webfonts//AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Avenir LT Std";
+    src: url("../webfonts//AvenirLTStd-Roman.eot");
+    src: url("../webfonts//AvenirLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("../webfonts//AvenirLTStd-Roman.woff") format("woff"), url("../webfonts//AvenirLTStd-Roman.ttf") format("truetype"), url("../webfonts//AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Futura Medium";
+    src: url("../webfonts//Futura-Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../webfonts/AvenirLTStd-Book.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #0c2169;
+    --color-gray: #c7c9cb;
+    --color-secondary: #f26715;
+    --font-primary: "Avenir LT Std";
+    --font-secondary: "Carla Sans";
+    --font-copyright: "Futura Medium";
+}
+
+body {
+    font-size: 25px;
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+    line-height: 40px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.mt-10 {
+    margin-top: 7rem;
+}
+
+
+/* Header Start */
+
+.desktop-header {
+    width: calc(100% - 140px);
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    z-index: 1040;
+    top: 0;
+    border-radius: 0 0 24px 0;
+    display: flex;
+    align-items: center;
+}
+
+.desktop-header_logo {
+    display: inline-block;
+}
+
+.desktop-header_logo img {
+    width: 334.51px;
+}
+
+.desktop-header_btn {
+    background-color: transparent;
+    border: none;
+}
+
+.desktop-header_btn img {
+    margin-right: 10px;
+    width: 210px;
+}
+
+.desktop-header_container {
+    flex-grow: 1;
+    order: 3;
+}
+
+.desktop-header_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 49.5px;
+    flex-grow: 1;
+    padding-left: 150px;
+}
+
+.desktop-header::before {
+    content: "";
+    display: inline-block;
+    width: 195px;
+    transform: skewX(15deg) translateX(-20px);
+    margin-right: -8px;
+    height: 119px;
+    background-color: var(--color-primary);
+}
+
+.desktop-header::after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 119px;
+    background-color: var(--color-gray);
+    transform: skewX(15deg);
+    order: 2;
+    box-shadow: 12px 0px 0px var(--color-secondary);
+}
+
+.page-template-oceanis34-1 .interior-insec {
+    color: #0C2169;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/* Header End */
+
+
+/* Hero Start */
+
+.hero_bg-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+/* Hero End */
+
+
+/*my_edi*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Freedom Start */
+
+section.freedom_section {
+    padding: 42px 144px;
+}
+
+.freedom_row {
+    display: flex;
+}
+
+.freedom_heading {
+    font-size: 60px;
+    line-height: 80px;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.freedom_heading-wrapper {
+    width: 31%;
+    flex-shrink: 0;
+}
+
+.freedom_content {
+    padding-left: 60px;
+    margin-left: 20px;
+    border-left: 1px solid var(--color-secondary);
+}
+
+.freedom_content p:not(:last-child) {
+    margin-bottom: 36px;
+}
+
+
+/* Freedom End */
+
+
+/* Logo Stript Start */
+
+.logo-strip_section {
+    padding: 42px 144px;
+}
+
+.logo-strip_row {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    border: 2px solid #E6E8F0;
+    border-radius: 500px;
+    padding: 91px 65px;
+}
+
+.logo-strip_item {
+    flex-grow: 1;
+}
+
+.logo-strip_item img {
+    width: 100%;
+}
+
+
+/* Logo Stript End */
+
+
+/* Direction Section Start */
+
+.direction_section {
+    padding: 30px 0px;
+    position: relative;
+}
+
+.direction_container {
+    width: calc(100% - 144px);
+    background-size: cover;
+    border-radius: 0 500px 500px 0;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 75px 86px 50px 144px;
+}
+
+.direction_row {
+    display: flex;
+}
+
+.direction_img {
+    width: 56.05%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+
+.direction_title {
+    font-size: 55px;
+    line-height: 75px;
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.direction_content {
+    position: relative;
+    height: 100%;
+    margin-right: 114px;
+    flex-grow: 1;
+}
+
+.direction_graphic p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.direction-graphic-wrapper {
+    position: absolute;
+    top: calc(100% + 15px);
+    left: -24px;
+    z-index: 1;
+}
+
+.direction-graphic-wrapper2 {
+    position: absolute;
+    top: calc(100% + 390px);
+    right: -24px;
+    z-index: 1;
+}
+
+.direction_graphic {
+    position: relative;
+    background: var(--color-primary);
+    padding: 30px 24px 9px 24px;
+}
+
+.direction_graphic::after {
+    content: "";
+    width: 100%;
+    height: 118px;
+    background: red;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.direction_img-title {
+    position: absolute;
+    bottom: 51px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+}
+
+.direction_graphic::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    bottom: -10px;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    box-shadow: 0px 12px 0 var(--color-secondary);
+    transform: skewY(-10deg);
+}
+
+
+/* Direction Section End */
+
+.left-section {
+    margin-left: auto;
+    width: 90%;
+    background-size: contain;
+    height: 588px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+
+/* Passage Section Start */
+
+.passage_section {
+    padding: 69px 0 75px 0;
+}
+
+
+/* Passage Section End */
+
+section.choose_section {
+    padding: 172px 262px 42px 144px;
+}
+
+.img-indescribable-peace {
+    margin: 0 auto 2px;
+}
+
+
+/*Slider*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 150px 0;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    transition: 0.2s ease;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.page-template-oceains30-1 .swiper-slide img {
+    border-radius: 0%;
+}
+
+.swiper-slide.swiper-slide-prev img {
+    margin-left: 50%;
+}
+
+.swiper-slide.swiper-slide-next img {
+    margin-right: 50%;
+}
+
+.page-template-oceains30-1 .swiper-slide.swiper-slide-next img {
+    margin-right: 0% !important;
+}
+
+.page-template-oceains30-1 .swiper-slide.swiper-slide-prev img {
+    margin-left: 0% !important;
+}
+
+.page-template-oceains30-1 .swiper-slide.swiper-slide-active img {
+    transform: scale(1.3) !important;
+}
+
+.swiper-slide.swiper-slide-active {
+    z-index: 2;
+}
+
+.swiper-slide.swiper-slide-active img {
+    transform: scale(1.5);
+}
+
+.page-template-oceains30-1 .swiper-slide.swiper-slide-active img {
+    transform: scale(1.3) !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    height: 16px;
+    width: 16px;
+    background: #0c2169;
+    opacity: inherit;
+}
+
+.slider-section .swiper-pagination {
+    margin-bottom: -18px;
+}
+
+.mid-manner {
+    position: relative;
+    padding: 0;
+}
+
+.direction-graphic-wrapper-white {
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    z-index: 1;
+}
+
+.direction_graphic-white {
+    position: relative;
+    width: 452px;
+    background: #fff;
+    border-left: 0px solid #fff;
+    border-right: 0px solid #fff;
+    padding: 50px 24px 9px 24px;
+}
+
+.direction_graphic-white h2 {
+    color: var(--color-primary);
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+}
+
+.direction_graphic-white::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    bottom: -10px;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    box-shadow: 0px 12px 0 var(--color-secondary);
+    transform: skewY(-8deg);
+}
+
+.smaller-heading {
+    color: var(--color-primary);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+}
+
+section.all-cnt-sec {
+    padding-bottom: 0 !important;
+}
+
+.blue-side-pill {
+    background: var(--color-primary);
+    border-radius: 0px 1000px 1000px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-center {
+    max-width: 300px;
+}
+
+.content-center h3 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+    font-family: var(--font-secondary);
+}
+
+.btn-contact {
+    border: 2px solid var(--color-secondary);
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    transition: 0.3s ease-in;
+    font-size: 20px;
+}
+
+.btn-ct:hover {
+    color: #fff;
+    background: var(--color-secondary);
+}
+
+.content-center a:hover{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+/*footer*/
+
+.footer-text {
+    text-align: center;
+}
+
+.tagline {
+    color: var(--color-primary);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+    text-align: center;
+}
+
+.bg-img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.copyright-text p {
+    margin-top: 25px;
+    font-family: var(--font-copyright);
+    font-weight: bolder !important;
+    text-align: center;
+}
+
+.offcanvas {
+    height: 100vh !important;
+    background-color: #efeded;
+}
+
+.offcanvas-body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offcanvas .header-svg {
+    user-select: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    max-width: 100%;
+}
+
+.offcanvas .nav-item .nav-link {
+    height: 41px;
+    width: auto;
+    max-width: 100%;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin: 8px;
+}
+
+.offcanvas .nav-item:first-child .nav-link {
+    margin-left: 0;
+}
+
+.offcanvas .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+#pills-tab {
+    width: 1080px;
+}
+
+.offcanvas .nav-item .nav-link img {
+    width: 100%;
+    height: 100%;
+    max-width: 190px;
+}
+
+.offcanvas .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: transparent !important;
+}
+
+.offcanvas .tab-content .tab-pane ul li {
+    line-height: 1.2;
+}
+
+.offcanvas-header {
+    overflow: hidden;
+    position: relative;
+}
+
+.top-svg {
+    transform: rotateY(-180deg);
+    position: absolute;
+    top: 0;
+    left: -545px;
+}
+
+.offcanvas-title {
+    margin-left: 160px;
+}
+
+.offcanvas-header .btn-close {
+    background-color: var(--color-secondary);
+    padding: 12px;
+    opacity: 1;
+    border-radius: 0;
+    margin-left: 10px;
+}
+
+.offcanvas-header .close-action {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.sub-list {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.sub-list:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 92px;
+    background: var(--color-secondary);
+    border-radius: 2px;
+    height: 2px;
+}
+
+.sub-list a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: var(--font-primary);
+}
+
+.sub-list h4 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.social-media {
+    position: fixed;
+    top: 50%;
+    text-align: center;
+    z-index: 1040;
+    left: 0;
+    transform: translateY(-50%);
+    background: var(--color-primary);
+    padding: 25px 10px;
+    border-radius: 0px 20px 20px 0;
+    border: 4px solid #1f3eaa;
+    border-left: 0;
+}
+
+.social-media a {
+    color: #fff;
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* single boat category page */
+.main-category-img {
+    padding: 50px;
+    border-bottom: 2px solid var(--color-primary);
+    margin: 0 79px;
+}
+
+.main-category-img img {
+    margin: auto;
+    width: 320px;
+}
+.page-template-oceanis-yacht .main-category-img {
+    padding:50px 0 20px !important;
+}
+.page-template-oceanis-yacht .main-category-img img {
+    margin: auto;
+    width: 30%;
+}
+.page-template-oceanis-yacht .item-wrapper h3 {
+    margin: 30px 0px 10px;
+}
+.page-template-oceanis-yacht .item-wrapper p {
+    padding: 0 30px;
+    margin-bottom: 40px;
+}
+.page-template-oceanis-yacht a.findoutmore {
+    background-color: #0c2169;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-primary) !important;
+}
+.page-template-oceanis-yacht a.findoutmore:hover{
+    text-decoration:none;
+}
+.main-category-text {
+    padding: 50px 0;
+    margin: 0 75px;
+    text-align: center;
+}
+
+.main-category-text h2  {
+    color: var(--color-primary);
+    padding: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: var(--font-secondary);
+}
+
+.page-template-beneteau-oceanis-template .main-category-text h2  {
+    letter-spacing: 1px;
+}
+
+.main-category-text h2 p{
+    font-size: 2.5rem;
+    line-height:normal !important;
+}
+
+.item-wrapper {
+    text-align: center;
+}
+
+.item-wrapper img {
+    margin-bottom: 20px;
+}
+
+.item-wrapper h3 {
+    color: var(--color-primary);
+    padding: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: var(--font-secondary);
+}
+
+.item-wrapper p {
+    color: var(--color-primary);
+}
+
+.speci_con_new.new2 {
+    display: none;
+}
+
+.profile_con-in {
+    float: right;
+}
+
+.page-id-7 .profile_con-in {
+    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.page-id-7 .profile_con-in img.pro_img {
+    width: fit-content;
+    margin-left: 40px;
+}
+
+.profile_con-in img {
+    width: fit-content;
+    padding-right: 0 !important;
+}
+
+.ctb-video-in video {
+    border-radius: 1000px;
+}
+
+.tagline-tra {
+    padding: 20px 30px 0;
+    font-size: 25px;
+    color: #f26715;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #aaa !important;
+}
+
+
+.col-lg-6:nth-child(odd) {
+    padding-left: 0;
+}
+
+.col-lg-6:nth-child(even) {
+    padding-right: 0;
+}
+
+img.for_fon {
+    display: none;
+}
+
+section.abt {
+    padding: 78px 78px 0;
+    position: relative;
+}
+
+.about_con h2 {
+    color: #F26715;
+    font-size: 60px;
+    line-height: normal;
+    font-family: var(--font-secondary);
+}
+
+.about_con h3 {
+    font-size: 40px;
+    letter-spacing: -0.13px;
+    padding: 0px 0px;
+    font-family: var(--font-secondary);
+    font-weight: 600;
+}
+
+.about_con p {
+    font-family: var(--font-primary);
+
+}
+
+.con_right {
+    margin-top: -33%;
+    background: #fff;
+    border-top: 5px solid #0c2169;
+}
+
+img.pro_img {
+    float: left;
+    max-width: 135px;
+    width: 100%;
+}
+
+.profile_con h4 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+    font-family: "Avenir";
+    margin: 0px;
+}
+
+.pb-5 {
+    padding-bottom: 0px !important;
+}
+
+.about_con p {
+    font-family: var(--font-primary);
+    padding-right: 50px;
+    letter-spacing: -0.13px;
+    line-height: 40px;
+    padding-top: 30px;
+}
+
+.profile_con {
+    color: #fff;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.main_logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.main_profile_sec {
+    background: #0c2169;
+    clip-path: polygon(0 8%, 100% 0%, 100% 80%, 0 96%);
+    padding: 66px 0px 16px;
+}
+
+section.hero_section {
+    position: relative;
+}
+
+.direction_con {
+    text-align: center;
+}
+
+.right-interior img {
+    width: 94%;
+    float: right;
+    padding: 0px 0px;
+}
+
+.page-template-oceains30-1 .right-interior img {
+    width: 100%;
+}
+
+.right-interior {
+    width: 100%;
+    float: left;
+}
+
+.direction_con {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left-interior {
+    position: relative;
+}
+
+.left-interior img {
+    height: auto;
+    width: 100%;
+    border-radius: 2000px;
+    object-fit: cover;
+}
+
+.left-interior-con {
+    width: 40%;
+    height: 50%;
+    background: #0C2169;
+    color: #fff;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+    z-index: 999;
+    top: 0;
+}
+
+.speci_con_new {
+    width: 85%;
+    padding: 50px 140px 30px;
+    margin: 0 auto;
+}
+.page-template-oceanis34-1 .speci_con_new {
+    width: 100%;
+}
+
+.left-interior-con p {
+    padding: 6%;
+}
+
+.left-interior-con p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 44px;
+}
+
+section.profile_section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.deck_slide {
+    border-radius: 1000px;
+    padding: 30px;
+    width: 72%;
+}
+
+.left-interior {
+    margin: 50px 0px;
+    padding: 0px 140px;
+    width: 100%;
+}
+
+.speci_con_new {
+    background: #0c2169;
+    border-radius: 260px;
+    padding: 50px 100px 30px;
+}
+
+.speci_con_new ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.speci_con_new ul li {
+    color: #fff;
+    list-style: none;
+    border-bottom: 2px solid #fff;
+    width: 50%;
+    padding: 0px 0px 10px;
+    display: inline-block;
+    margin: 0 -2px;
+    margin-bottom: 10px;
+    font-family: "Avenir";
+}
+
+.speci_con_new ul li span {
+    font-weight: bold;
+}
+
+li.border_none {
+    border-bottom: 0px !important;
+}
+
+.left-interior-con::after {
+    width: 100%;
+    content: "";
+    height: 100%;
+    background: #f26715;
+    z-index: 99999;
+    position: absolute;
+    bottom: -82%;
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+section.specification {
+    padding: 0px 0px 30px;
+}
+
+.main_profile_img img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.page-template-oceains30-1 .main_profile_img img {
+    padding: 10px;
+}
+
+.main_profile_img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deck_slide {
+    border: 2px solid #0C2169;
+    border-radius: 1000px;
+    padding: 20px;
+    align-items: center;
+}
+
+.deckimg_slide img {
+    border: 0px;
+    border-radius: 0;
+}
+
+.deck_con ul {
+    padding-left: 20px;
+
+}
+
+.deck_con ul li {
+    color: #0C2169;
+    font-weight: 600;
+    text-align: justify;
+    font-family: "Avenir";
+}
+
+.deck_con .tagline {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.deck_sec .swiper-slide {
+    padding: 80px 0 !important;
+    width: 100% !important;
+}
+
+
+.deck_con {
+    padding-left: 100px;
+}
+
+section.virtual_section {
+    padding-top: 0px;
+}
+
+.virtual_img img {
+    width: 100%;
+    height: auto;
+}
+
+img.phone_ft {
+    display: none;
+}
+
+.vrtcl-slider .slick-slide {
+    transition: ease 0.4s all;
+}
+
+.vrtcl-slider .slick-list {
+    padding: 12% 0;
+}
+
+
+.vrtcl-slider ul.slick-dots li {
+    display: inline-block;
+    list-style: none;
+}
+
+.vrtcl-slider ul.slick-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vrtcl-slider ul.slick-dots li button {
+    width: 16px;
+    height: 16px;
+    padding: 0px;
+    font-size: 0;
+    border: 0;
+    background: #0c2169;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.vrtcl-slider .slick-dots li.slick-active button {
+    background: #a7a7a7;
+
+}
+
+.swiper-slide img {
+    transform: scale(1.3);
+    padding: 0px 20px 0px 35px;
+    display: block;
+}
+
+.direction2 .right-interior {
+    margin-bottom: 60px;
+    float: none;
+}
+
+.mid-manner .position-absolute {
+    padding: 0 254px;
+}
+
+.mid-manner2 .direction_graphic-white::after {
+    background-color: #0C2168;
+    border-left: 1px solid #0C2168;
+    border-right: 1px solid #0C2168;
+    top: 30%;
+}
+
+.mid-manner2 .right-interior img {
+    width: 92%;
+    float: none;
+    margin-left: auto;
+    padding: 0px 0px;
+}
+
+.mid-manner2 .direction_graphic-white {
+    background-color: #0C2168;
+    margin-left: auto;
+}
+
+.mid-manner2 .direction_graphic-white .text-start {
+    color: #fff;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.mid-manner2 .direction-graphic-wrapper-white {
+    bottom: 110px;
+    position: absolute;
+    right: 0;
+    top: auto;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0 254px;
+}
+
+.page-id-7 .right-interior img {
+    padding: 20px 0;
+}
+
+img.mobile-img {
+    display: none;
+}
+
+section.profile_section {
+    padding-top: 20px;
+}
+
+
+.page-id-7 .direction_con {
+    padding-bottom: 40px;
+}
+
+
+.page-id-7 .swiper-slide img {
+    background: #fff;
+}
+
+
+/* oceanis 46.1 css start */
+
+.page-template-oceanis46-1 .boat-slide-right h2.tagline {
+    text-align: left;
+    padding: 0;
+}
+.page-template-beneteau-template .boat-slide-right h2.tagline {
+    text-align: left;
+    padding: 0;
+}
+.page-template-oceanis46-1 .profile_con-in {
+    float: right;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.page-template-oceanis46-1 .img-ovr-cont {
+    min-height: 46%;
+    max-width: 32%;
+}
+
+.page-template-oceanis46-1 .profiles-main-sec .container-fluid {
+    padding: 0 20% !important;
+}
+.vrtcl-slider .slick-slide.slick-current.slick-active+.item {
+    transform: scale(2, 1.9);
+}
+
+.page-template-oceains30-1 .pro-div-cont h4 br {
+    display: none;
+}
+.page-template-oceains30-1 .pro-div-cont h4 {
+    line-height: 23px;
+}
+.page-template-oceains30-1 .abt_video.ctb-video-in video{
+    height: auto;
+}
+.page-template-oceains30-1 section.main-img-slider.desk {
+    margin: 40px 0 0;
+}
+.page-template-oceains30-1 section.abt_main_video {
+    margin-top: -30px !important;
+}
+.page-template-oceains30-1 .specification-main-are ul li:nth-child(9) {
+    border-bottom: none;
+}
+.page-template-oceanis46-1 .specification-main-are ul li:nth-child(9) {
+    border-bottom: none;
+}
+.page-template-swan-55 p {
+    margin-bottom: 40px;
+}
+
+.full-sticky-form {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.full-sticky-form button {
+    width: 52px;
+    background-color: transparent !important;
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.full-sticky-form .form-boxed {
+    max-width: 440px;
+    transform: rotateY(-90deg);
+    background: #fff;
+    transform-origin: 0 0;
+    padding: 40px 15px 20px;
+    border-radius: 2%;
+    transition: 0.4s ease;
+}
+
+#stickyFormContainer {
+	display: none;
+	transition: 0.4s ease-in-out;
+}
+
+.full-sticky-form .wpcf7-form input, .full-sticky-form .wpcf7-form select, .full-sticky-form .wpcf7-form textarea {
+    border-radius: 24px!important;
+    background-color: #fff;
+    width: 100%;
+    height: 38px;
+    margin-top: 15px;
+    border: 1px solid #dce2e2;
+    font-size: 12px;
+    font-family: 'Avenir';
+    font-weight: 700 !important;
+    color: #000;
+    font-weight: 400;
+    padding: 0 15px;
+    line-height: 1.2;
+    max-width: 100%;
+    padding: 30px;
+    font-size: 20px;
+    border: 1px solid #000329;
+    box-shadow: none;
+    outline: none;
+}
+
+.full-sticky-form .wpcf7-form input:hover, .full-sticky-form .wpcf7-form select:hover, .full-sticky-form .wpcf7-form textarea:hover {
+    background: #eff8ff;
+}
+
+.full-sticky-form .wpcf7-form .wpcf7-submit {
+    background-color: #00012b !important;
+    color: #FFFFFF !important;
+    line-height: 0;
+    width: 100% !important;
+    padding: 30px 60px !important;
+}
+
+.full-sticky-form .wpcf7-form textarea {
+    height: 100px;
+}
+
+.full-sticky-form #closeBtn {
+    position: absolute;
+    font-family: 'Avenir';
+    top: 10px;
+    right: 20px;
+    color: #EF9536;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#stickingForm .wpcf7-form p {
+    position: relative;
+    margin: 0;
+}
+
+#stickingForm .wpcf7-form .wpcf7-spinner {
+    position: absolute;
+    right: 0;
+    top: 2rem;
+}
+
+#stickingForm .wpcf7-form .wpcf7-not-valid-tip {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: normal;
+    display: block;
+    margin-top: 10px;
+}
+
+#stickingForm .wpcf7 form.invalid .wpcf7-response-output, #stickingForm .wpcf7 form.unaccepted .wpcf7-response-output, #stickingForm .wpcf7 form.payment-required .wpcf7-response-output {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 4.5em 0.5em 1em;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 5em 0.5em 1em;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*responsive container*/
+
+@media(min-width:1200px) {
+    .abt .container {
+        max-width: 100%;
+    }
+
+    /*.page-template-oceains30-1 .profile_con h4 {
+    font-size: 14px;
+}*/
+    /*.page-template-oceains30-1 .left-interior-con {
+    height: 330px !important;
+    object-fit: cover;
+    width: 50% !important;
+}*/
+
+    .deck_con ul li {
+        font-size: 14px;
+    }
+
+    .swiper-slide.swiper-slide-active img {
+        transform: scale(1.2);
+        padding: 0px 25px 0px 25px;
+    }
+
+    .swiper-slide img {
+        transform: scale(1.2);
+        padding: 0px 25px 0px 25px;
+    }
+
+    .deckimg_slide img {
+        width: 100%;
+    }
+
+    .deck_slide {
+        width: 90% !important;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+}
+@media(min-width:1600px) {
+    .abt .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 144px;
+    }
+
+    .container.container2 {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 254px;
+    }
+
+    .left-interior-con {
+        width: 30%;
+    }
+
+}
+
+
+@media(min-width:1920px) {
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 164px;
+        max-width: 164px;
+    }
+
+    .page-template-oceains30-1 .swiper-slide.swiper-slide-active img {
+        transform: scale(1.3) !important;
+    }
+
+    .page-template-oceains30-1 .con_right {
+        margin-top: -33%;
+        background: #fff;
+        border-top: 5px solid #0c2169;
+        /*width: 359px;
+    height: 193px;
+    object-fit: cover;
+*/
+        float: right;
+    }
+
+    .page-template-oceains30-1 .left-interior {
+        padding: 0px 50px 8px 0px;
+    }
+
+    .page-template-oceains30-1 .right-interior img {
+        width: 96%;
+    }
+
+    .page-template-oceains30-1 section.abt {
+        padding: 78px 78px 10px;
+        position: relative;
+    }
+
+    .page-template-oceains30-1 .profile_con h4 {
+        font-size: 18px;
+    }
+
+    .page-template-oceains30-1 .pro_con p {
+        font-size: 14px;
+
+    }
+
+    .page-template-oceains30-1 .profile_con {
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .offcanvas-body .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .ms-auto {
+        margin-left: auto !important;
+        width: 100%;
+    }
+
+    .sub-list a {
+        font-size: 1.4rem;
+    }
+
+    .sub-list h4 {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+
+    .deckimg_slide img {
+        border: 0px;
+        width: 82%;
+    }
+
+    .direction_section {
+        padding: 20px 0px;
+    }
+
+    .deck_con ul li {
+        font-size: 22px;
+    }
+
+    .tagline {
+        padding: 0px 0px 30px;
+    }
+    .page-template-oceanis34-1 .tagline {
+        padding: 0px 0px 0px;
+    }
+
+    section {
+        padding: 40px 0px 0px;
+    }
+
+
+    .speci_con_new ul li {
+        margin: 0px -5px;
+        margin-bottom: 18px !important;
+    }
+
+    .speci_con_new {
+        padding: 50px 140px 30px;
+    }
+
+    .left-interior-con p {
+        padding: 24px 30px 60px;
+        font-size: 22px;
+    }
+
+    section.slider-section {
+        padding-top: 0px;
+    }
+
+    .deck_con {
+        padding-left: 20px;
+    }
+
+    .deck_con .tagline {
+        padding: 10px;
+    }
+
+    .offcanvas-title {
+        margin-left: 310px;
+    }
+
+    .left-interior-con {
+        clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%) !important;
+    }
+
+    .left-interior-con::after {
+        clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+        bottom: -86%;
+    }
+
+    .swiper-slide.swiper-slide-active img {
+        padding: 0px 55px 0px 55px;
+    }
+
+    .swiper-slide img {
+        padding: 0px 55px 0px 55px;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+
+    .page-template-sailboat .mid-manner2 .direction_graphic-white {
+        width: 546px;
+    }
+    .page-template-sailboat .direction_graphic-white {
+        width: 546px;
+        margin-right: -40px;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white .text-start br{
+        display: none;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+}
+
+@media (min-width: 2000px) {
+    footer .container {
+        max-width: fit-content;
+        margin: auto;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white {
+        width: 546px;
+    }
+    .page-template-sailboat .direction_graphic-white {
+        width: 546px;
+        margin-right: 20px;
+    }
+
+
+}
+
+
+@media(min-width:2500px) {
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 250px;
+    }
+
+    .page-template-oceains30-1 .ctb-video-in video {
+        border-radius: 650px;
+    }
+
+    .page-template-oceains30-1 .profile_con {
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 250px;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .swiper-slide {
+        padding: 200px 0 !important;
+    }
+
+    .page-template-oceains30-1 .tagline-tra {
+        padding: 60px 62px 0 !important;
+    }
+
+    .con_right {
+        margin-top: -24%;
+    }
+
+    .deck_slide {
+        border-radius: 1000px;
+        padding: 34px;
+    }
+
+    .profile_con h4 {
+        font-size: 28px !important;
+
+    }
+
+    .right-interior img {
+        width: 94%;
+    }
+
+    .left-interior-con p {
+        font-size: 26px;
+    }
+
+    /* 
+    .left-interior-con::after {
+        width: 100%;
+        height: 50px;
+        bottom: -2px;
+        clip-path: polygon(0 70%, 100% 0%, 100% 86%, 0% 100%);
+    } */
+
+    .left-interior-con {
+        height: 56%;
+    }
+
+    .deck_con ul li {
+        font-size: 28px;
+        line-height: 68px;
+    }
+
+    .swiper-slide.swiper-slide-active img {
+        padding: 0px 60px 0px 60px;
+        transform: scale(1.3)
+    }
+
+    .swiper-slide img {
+        padding: 0px 60px 0px 60px;
+        display: block;
+        transform: scale(1.3);
+    }
+
+    .swiper-slide.swiper-slide-next img {
+        margin-left: 0;
+    }
+
+
+    .page-id-221 .direction_graphic-white {
+        margin-right: 100px;
+    }
+
+    .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 30px;
+        line-height: 40px !important;
+    }
+
+    .mid-manner2 .direction_graphic-white::after {
+        top: 20%;
+    }
+
+}
+
+@media(min-width:2700px) {
+
+    .deck_slide {
+        border-radius: 1000px;
+        padding: 50px;
+        width: 72% !important;
+    }
+
+    /*.page-template-oceains30-1 .swiper-slide img {
+    padding: 0px 40px 0px 35px !important;
+}*/
+    .page-template-oceains30-1 .ctb-video-in video {
+        border-radius: 650px;
+    }
+
+    .page-template-oceains30-1 .right-interior img {
+        width: 96%;
+    }
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 300px;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .page-template-oceains30-1 .profile_con {
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 250px;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .profile_con h4 {
+        font-size: 28px !important;
+
+    }
+
+    .left-interior-con p {
+        padding: 66px 30px 66px;
+    }
+
+    .swiper-slide.swiper-slide-active img {
+        padding: 0px 65px 0px 65px;
+        transform: scale(1.5);
+    }
+
+    .swiper-slide img {
+        padding: 0px 65px 0px 65px;
+        transform: scale(1.5);
+        display: block;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+
+    .deck_con ul li {
+        font-size: 28px;
+    }
+
+
+
+    .page-id-221 .direction_graphic-white {
+        margin-right: 140px;
+    }
+
+    .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 30px;
+        line-height: 40px !important;
+    }
+
+    .mid-manner2 .direction_graphic-white::after {
+        top: 20%;
+    }
+
+
+}
+
+
+@media(max-width:1919px) {
+
+
+    .offcanvas-body .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .ms-auto {
+        margin-left: auto !important;
+        width: 100%;
+    }
+
+    .sub-list a {
+        font-size: 1.4rem;
+    }
+
+    .sub-list h4 {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+
+    .deckimg_slide img {
+        border: 0px;
+        width: 82%;
+    }
+
+    .direction_section {
+        padding: 20px 0px;
+    }
+
+    .tagline {
+        padding: 0px 0px 30px;
+    }
+
+    section {
+        padding: 40px 0px 0px;
+    }
+
+
+    .speci_con_new ul li {
+        margin: 0px -5px;
+        margin-bottom: 18px !important;
+        font-size: 22px;
+    }
+
+    .speci_con_new {
+        padding: 50px 140px 30px;
+    }
+
+    section.slider-section {
+        padding-top: 0px;
+    }
+
+    .deck_con {
+        padding-left: 30px;
+    }
+
+    .deck_con .tagline {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 90px;
+    }
+
+    .deck_slide {
+        border-radius: 1000px;
+        width: 74%;
+    }
+
+    .deck_slide {
+        border: 2px solid #0C2169;
+        border-radius: 1000px;
+        padding: 10px 30px;
+        align-items: center;
+    }
+
+    .offcanvas-body {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 194px;
+    }
+
+    .offcanvas-header.bg-white .desktop-header_logo {
+        display: inline-block;
+        padding: 32px 0px;
+    }
+    .page-template-oceanis34-1 .speci_con_new {
+        padding: 70px 116px 50px;
+    }
+
+}
+
+@media(min-width:1921px) and (max-width:2500px) {
+    .swiper-slide.swiper-slide-active img {
+        padding: 0px 60px 0px 60px;
+        transform: scale(1.3);
+    }
+
+    .swiper-slide img {
+        padding: 0px 60px 0px 60px;
+        transform: scale(1.3);
+        display: block;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+}
+
+@media(min-width:1601px) and (max-width:1919px) {
+
+    .page-template-oceains30-1 .profile_con {
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 180px;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .deck_con ul li {
+        font-size: 18px;
+    }
+
+    .swiper-slide img {
+        transform: scale(1.3);
+        padding: 0px 35px 0px 35px;
+    }
+
+    .swiper-slide.swiper-slide-active img {
+        transform: scale(1.3);
+        padding: 0px 35px 0px 35px;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+
+
+    .direction_graphic p br {
+        display: none;
+    }
+
+    .direction_title {
+        font-size: 46px;
+        line-height: 60px;
+        margin-top: 10px;
+    }
+
+    .direction_img-title {
+        bottom: 20px;
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .direction_graphic p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .freedom_heading {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .mid-manner2 .direction_graphic-white::after {
+        bottom: -10px;
+        top: 20%;
+    }
+
+    .direction_graphic-white h2 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    .direction_graphic-white {
+        width: 430px;
+        padding: 20px 24px 9px 24px;
+    }
+    .page-template-sailboat .direction_graphic-white {
+        width: 478px;
+        margin-right: -40px;
+    }
+
+    .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 20px;
+    }
+    .mid-manner2 .direction_graphic-white .text-start br {
+        display: none;
+    }
+    .mid-manner2 .direction-graphic-wrapper-white {
+        bottom: 60px;
+    }
+
+}
+
+@media(min-width:1600px) and (max-width:1600px) {
+    .left-interior-con {
+        width: 30%;
+        height: 55%;
+    }
+
+    .page-template-oceains30-1 .right-interior img {
+        width: 100%;
+    }
+
+    .page-template-oceains30-1 .left-interior img {
+        width: 90%;
+    }
+
+
+    .page-template-oceains30-1 .profile_con {
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 160px;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .left-interior-con p {
+        font-size: 19px;
+        line-height: 29px;
+    }
+
+
+    .swiper-slide.swiper-slide-active img {
+        padding: 0px 45px 0px 45px;
+        transform: scale(1.3);
+    }
+
+    .swiper-slide img {
+        padding: 0px 45px 0px 45px;
+        transform: scale(1.3);
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+
+    .deck_con ul li {
+        font-size: 18px;
+    }
+
+    .direction_graphic p br {
+        display: none;
+    }
+
+    .direction_title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    .direction_img-title {
+        bottom: 20px;
+        font-size: 42px;
+        line-height: 40px;
+    }
+
+    .direction_graphic p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .freedom_heading {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .mid-manner2 .direction_graphic-white::after {
+        bottom: -10px;
+        top: 20%;
+    }
+
+    .direction_graphic-white h2 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    .direction_graphic-white {
+        width: 372px;
+        padding: 20px 24px 9px 24px;
+    }
+    .page-template-sailboat .direction_graphic-white {
+        width: 448px;
+        margin-right: -40px;
+    }
+
+    .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 16px;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .page-template-sailboat .mid-manner2 .direction_graphic-white .text-start br {
+        display: none;
+    }
+    .mid-manner2 .direction-graphic-wrapper-white {
+        bottom: 60px;
+    }
+
+
+
+}
+
+@media(max-width:1600px) {
+    section.abt {
+        padding: 50px 78px 0px;
+    }
+
+    img.pro_img {
+        width: 100px;
+    }
+
+    .direction_con {
+        width: 84%;
+    }
+
+    .left-interior {
+        margin: 50px 0px;
+        width: 84%;
+        margin: 0 auto;
+        height: fit-content;
+        padding: 0px;
+    }
+
+    .speci_con_new {
+        width: 84%;
+    }
+
+    section.profile_section {
+        width: 84% !important;
+        margin: 0 auto;
+    }
+
+    section.specification {
+        padding: 20px 0px 0px;
+    }
+
+    .speci_con_new {
+        padding: 30px 116px 20px;
+    }
+
+    .sub-list a {
+        font-size: 1.1rem;
+    }
+
+    .deck_slide {
+        width: 73% !important;
+    }
+
+    .deck_slide {
+        border: 2px solid #0C2169;
+        border-radius: 1000px;
+        padding: 10px 16px;
+        align-items: center;
+    }
+
+    .deck_con ul li {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .vrtcl-slider .slick-list {
+        padding: 13% 0;
+    }
+
+    .about_con h2 {
+        font-size: 40px;
+    }
+
+    .about_con h3 {
+        font-size: 35px;
+    }
+
+
+
+}
+
+@media(min-width:1451px) and (max-width:1599px) {
+    .abt .container {
+        max-width: 95%;
+    }
+
+    .page-template-oceains30-1 .profile_con {
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .page-template-oceains30-1 .left-interior-con {
+        height: 300px !important;
+        object-fit: cover;
+        width: 40% !important;
+    }
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 150px;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .left-interior img {
+        height: 75vh;
+
+    }
+
+    .left-interior-con p {
+        font-size: 19px;
+    }
+
+
+
+    .left-interior {
+        height: fit-content;
+    }
+
+    .swiper-slide.swiper-slide-active img {
+        transform: scale(1.3);
+        padding: 0px 20px 0px 35px;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+
+    .deck_con ul li {
+        font-size: 17px;
+    }
+
+    .direction_graphic p br {
+        display: none;
+    }
+
+    .direction_title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    .direction_img-title {
+        bottom: 20px;
+        font-size: 42px;
+        line-height: 40px;
+    }
+
+    .direction_graphic p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .freedom_heading {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    .mid-manner2 .direction_graphic-white::after {
+        bottom: -10px;
+        top: 20%;
+    }
+
+    .direction_graphic-white h2 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    .direction_graphic-white {
+        width: 372px;
+        padding: 20px 21px 9px 21px;
+    }
+    .page-template-sailboat .direction_graphic-white {
+        width: 420px;
+    }
+
+    .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 20px;
+    }
+    .mid-manner2 .direction_graphic-white .text-start br {
+        display: none;
+    }
+
+    .mid-manner2 .direction-graphic-wrapper-white {
+        bottom: 60px;
+        padding: 0 90px;
+    }
+
+    .direction_graphic::after {
+        top: 18%;
+    }
+
+    .mid-manner .position-absolute {
+        padding: 0 90px;
+    }
+
+}
+
+@media(max-width: 1450px) {
+.page-template-EXCESS11 p {
+    line-height: 35px !important;
+    font-size: 21px;
+}
+}
+
+@media (max-width:1440px) {
+    body {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .page-template-oceains30-1 .profile_con {
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 150px;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .page-template-oceains30-1 .left-interior-con {
+        width: 40% !important;
+        height: 55% !important;
+    }
+
+    .page-template-oceains30-1 .tagline-tra {
+        padding: 30px 26px 0 !important;
+    }
+
+    .freedom_heading {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .logo-strip_row {
+        padding: 60px 65px;
+    }
+
+    .page-template-oceains30-1 .deck_con {
+        padding-left: 0px;
+    }
+
+    .direction-graphic-wrapper {
+        width: 412px;
+    }
+
+    .desktop-header_row {
+        padding: 0px 49.5px;
+    }
+
+    .desktop-header::before,
+    .desktop-header::after {
+        height: 105px;
+    }
+
+    p {
+        font-size: 18px;
+
+    }
+
+    /* .left-interior-con {
+        width: 34%;
+        height: 46%;
+    } */
+
+
+    .deck_slide {
+        width: 80% !important;
+    }
+
+
+    .direction_graphic p br {
+        display: none;
+    }
+
+    .direction_title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    .direction_img-title {
+        bottom: 20px;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .direction_graphic p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .mid-manner2 .direction_graphic-white::after {
+        bottom: -10px;
+        top: 20%;
+    }
+
+    .direction_graphic-white h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .direction_graphic-white {
+        width: 372px;
+        padding: 20px 24px 9px 24px;
+    }
+    .page-template-sailboat .direction_graphic-white {
+        width: 412px;
+        margin-right: 0;
+    }
+
+    .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 20px;
+    }
+
+    .mid-manner2 .direction-graphic-wrapper-white {
+        bottom: 60px;
+        padding: 0 90px;
+    }
+
+    .direction_graphic::after {
+        top: 22%;
+    }
+
+    .mid-manner .position-absolute {
+        padding: 0 90px;
+    }
+
+    .mid-manner2 .direction_graphic-white .text-start br {
+        display: none;
+    }
+
+
+}
+
+@media(max-width:1400px) {
+
+    .offcanvas-body {
+        padding-top: 230px;
+    }
+
+    .offcanvas .header-svg {
+        display: none;
+    }
+
+    .offcanvas-header.bg-white img {
+        width: 200px;
+        padding-top: 9px;
+    }
+
+    p {
+        line-height: 28px !important;
+    }
+
+    .about_con p {
+        padding-right: 34px;
+    }
+
+    .left-interior-con p {
+        font-size: 16px;
+    }
+
+    .con_right {
+        margin-top: -43%;
+    }
+
+    section.abt {
+        padding: 50px 78px;
+        position: relative;
+    }
+
+    .profile_con h4 {
+        font-size: 16px;
+    }
+
+    .profile_con {
+        margin-bottom: 44px;
+    }
+
+    .main_profile_sec {
+        padding: 50px 0px 16px;
+    }
+
+    .deck_con {
+        padding-left: 20px;
+    }
+
+    .deck_con ul li {
+        font-size: 16px;
+    }
+
+    .direction_con {
+        width: 80%;
+    }
+
+    .speci_con_new {
+        width: 80%;
+    }
+
+    .speci_con_new ul li {
+        font-size: 16px;
+        margin: 0 -4px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    .speci_con_new {
+        padding: 30px 90px 30px;
+    }
+
+    .swiper-slide {
+        padding: 110px 0;
+    }
+
+    .left-interior {
+        margin: 50px 0px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    /* .left-interior img {
+        height: auto;
+        border-radius: 262px;
+    } */
+
+    section.specification {
+        padding: 20px 0px 30px;
+    }
+
+    section.profile_section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .deck_slide {
+        width: 90% !important;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        height: 16px;
+        width: 16px;
+    }
+
+    .pro_con p {
+        line-height: 22px !important;
+    }
+
+
+
+}
+
+@media(max-width:1366px) {
+    .left-interior {
+        margin: 50px 0px;
+        width: 83%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .speci_con_new {
+        width: 86%;
+    }
+
+    .direction_con {
+        width: 84%;
+    }
+}
+
+
+@media(max-width:1199px) {
+
+    .offcanvas .nav-item .nav-link img {
+        width: 100%;
+        height: 100%;
+        max-width: 135px;
+    }
+
+    .offcanvas-body {
+        padding-top: 110px;
+    }
+
+    .deck_con {
+        padding-left: 0px;
+    }
+    .desktop-header {
+        width: 95%;
+    }
+    img.pro_img {
+        padding-right: 15px;
+        width: 86px;
+    }
+
+    .profile_con h4 {
+        font-size: 14px;
+    }
+
+    .about_con p {
+        padding-top: 20px;
+    }
+
+    .swiper-slide {
+        padding: 90px 0;
+    }
+
+    .right-interior img {
+        width: 93%;
+    }
+
+    .left-interior img {
+        height: 500px;
+    }
+
+    .desktop-header_logo img {
+        width: 266.51px;
+    }
+
+    section.abt {
+        padding: 50px 30px;
+        position: relative;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 70px;
+    }
+
+    section.abt {
+        padding: 50px 30px 0px;
+        position: relative;
+    }
+
+    .vrtcl-slider ul.slick-dots li button {
+        width: 12px;
+        height: 12px;
+        padding: 0px;
+    }
+
+
+    .speci_con_new {
+        padding: 30px 94px 10px;
+    }
+    .page-template-oceanis34-1 .speci_con_new {
+        padding: 50px 94px 30px;
+    }
+
+    .deck_con ul li {
+        font-size: 14px;
+    }
+
+    .deck_con .tagline {
+        text-align: justify;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .deckimg_slide img {
+        border: 0px;
+        width: 100%;
+    }
+
+    .deck_con .tagline {
+        text-align: justify;
+        font-size: 30px;
+        margin-bottom: 0px;
+        padding: 0px 10px 0px;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        height: 12px;
+        width: 12px;
+    }
+
+    .left-interior-con p {
+        font-size: 19px;
+        line-height: 25px !important;
+    }
+
+    .swiper-slide img {
+        transform: scale(1.2);
+        padding: 0px 21px 0px 21px;
+        display: block;
+    }
+
+    .swiper-slide.swiper-slide-active img {
+        transform: scale(1.2);
+        padding: 0px 21px 0px 21px;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+
+    .deck_slide {
+        width: 90% !important;
+    }
+
+    .freedom_heading {
+        font-size: 36px;
+    }
+
+    .freedom_content p {
+        font-size: 20px;
+    }
+
+    .logo-strip_section {
+        padding: 42px 74px;
+    }
+
+    section.freedom_section {
+        padding: 42px 74px;
+    }
+
+    .logo-strip_row {
+        gap: 22px;
+        padding: 56px 31px;
+    }
+
+    .page-id-221 .direction_graphic-white {
+        margin-right: -20px;
+    }
+
+    .direction_graphic-white {
+        width: 332px;
+        padding: 20px 24px 9px 24px;
+    }
+
+    .direction_title br {
+        display: none;
+    }
+
+    .direction_title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .direction_container {
+        padding: 75px 66px 75px 74px;
+    }
+
+    .direction_content {
+        margin-right: 44px;
+    }
+
+    .direction-graphic-wrapper {
+        width: 332px;
+    }
+
+    section.choose_section {
+        padding: 112px 74px 22px 74px;
+    }
+
+    .direction_graphic p {
+        font-size: 18px;
+    }
+
+    .content-center h3 {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 7px;
+    }
+
+    .direction_graphic::after {
+        box-shadow: 0px 7px 0 var(--color-secondary);
+    }
+    .page-template-sailboat .direction-graphic-wrapper {
+        left: 0;
+    }
+
+}
+
+@media(max-width:1024px) {
+
+    .page-template-oceains30-1 .deck_con ul li {
+        font-size: 16px;
+    }
+
+    .page-template-oceains30-1 .left-interior-con {
+        height: 54% !important;
+    }
+    .page-template-oceains30-1 .tagline-tra {
+        padding: 17px 15px 0 !important;
+        font-size: 20px;
+        margin: 0;
+    }
+    .left-interior-con p {
+        font-size: 15px;
+        padding-top: 0;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white::after {
+        bottom: -10px;
+        top: 24%;
+    }
+    .page-template-oceanis34-1 .direction_con .tagline {
+        font-size: 40px;
+        margin-bottom:20px;
+        padding: 0;
+    }
+    .page-template-oceanis34-1 .direction_section .direction_con {
+        padding: 0px 0 !important;
+    }
+    .page-template-oceanis34-1 .interior_section .direction_con{
+        padding: 40px 0px 0px ;
+    }
+    .page-template-oceanis34-1 .tagline {
+        padding: 0px 0px 0px;
+        margin: 20px 0;
+    }
+    .page-template-oceains30-1 .deck_con {
+        padding-left: 30px;
+    }
+
+}
+
+@media(max-width:1023px) {
+    .direction_container {
+        padding: 125px 66px 125px 66px;
+        width: calc(100% - 54px);
+    }
+
+    .direction_title {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    .direction_img-title {
+        bottom: 5px;
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .direction-graphic-wrapper {
+        width: 250px;
+    }
+
+    .direction_graphic {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .direction_graphic p {
+        font-size: 17px;
+        line-height: 22px !important;
+    }
+
+    .sectionpur .col-lg-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .sectionpur .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .sectionpur p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .sectionpur .content p br {
+        display: none;
+    }
+
+}
+
+@media(max-width:992px) {
+
+    .offcanvas-body .col-lg-10 {
+        flex: 0 0 auto;
+        width: 74.33333333%;
+    }
+
+    .offcanvas-body .col-lg-2 {
+        flex: 0 0 auto;
+        width: 25.66666667%;
+    }
+
+    .offcanvas .nav-item .nav-link img {
+        width: 100%;
+        height: 100%;
+        max-width: 86px;
+    }
+
+    .offcanvas-body {
+        padding-top: 1px;
+    }
+
+    .offcanvas-title {
+        margin-left: 0px;
+    }
+
+    section.abt {
+        padding: 40px 40px;
+        position: relative;
+    }
+
+    img.pro_img {
+        padding-right: 10px;
+        width: 70px;
+    }
+
+    .profile_con h4 {
+        font-size: 12px;
+    }
+
+    .main_profile_sec {
+        clip-path: polygon(0 5%, 100% 0%, 100% 85%, 0 96%);
+        padding: 40px 0px 26px !important;
+    }
+
+    .profile_con {
+        margin-bottom: 20px;
+    }
+
+    .main_logo {
+        display: flex;
+        justify-content: center;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .about_con h2 {
+        font-size: 40px;
+    }
+    .about_con h3 {
+        font-size: 26px;
+    }
+
+    .about_con p {
+        padding-top: 10px;
+    }
+
+    section.abt {
+        padding: 26px 40px;
+        position: relative;
+    }
+
+
+    .desktop-header::before,
+    .desktop-header::after {
+        height: 88px;
+    }
+
+    .desktop-header::before {
+        width: 110px;
+    }
+
+    .desktop-header_logo img {
+        width: 190px;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        height: 12px;
+        width: 12px;
+    }
+
+    .swiper-slide {
+        padding: 68px 0;
+    }
+
+    .left-interior img {
+        height: 380px;
+    }
+
+    .left-interior img {
+        height: 400px;
+    }
+
+    .speci_con_new {
+        padding: 30px 50px 30px;
+    }
+
+    .tagline {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .direction_con {
+        width: 94%;
+    }
+
+    .left-interior {
+        width: 94%;
+    }
+    .speci_con_new {
+        width: 94%;
+    }
+
+    .speci_con_new {
+        padding: 42px 74px 20px;
+    }
+
+    .social-media {
+        padding: 24px 6px;
+    }
+
+    .deck_slide {
+        width: 88% !important;
+    }
+
+    .deck_slide {
+        padding: 10px;
+    }
+
+    .deck_slide .col-md-8 {
+        padding-left: 0px;
+    }
+
+    .deck_con ul li {
+        font-size: 12px;
+    }
+
+    section.profile_section {
+        width: 94% !important;
+        margin: 0 auto;
+    }
+
+    .deck_sec .swiper-slide {
+        padding: 50px 0 !important;
+        width: 100% !important;
+    }
+    .page-template-oceains30-1 .deck_sec .swiper-slide {
+        padding: 0px 0 !important;
+    }
+
+    section.abt {
+        padding: 26px 10px;
+        position: relative;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 50px;
+    }
+
+    section {
+        padding: 0px 0px 0px;
+    }
+
+    .right-interior img {
+        padding: 30px 0px 50px 50px;
+    }
+
+    .offcanvas-body {
+        padding-top: 150px !important;
+    }
+
+    .left-interior-con {
+        width: 44%;
+        height: 56%;
+    }
+
+    .left-interior-con p {
+        font-size: 16px;
+        line-height: 24px !important;
+    }
+
+}
+@media (max-width:991px){
+.page-template-oceanis46-1 .img-ovr-cont {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+.page-template-oceanis46-1 .boat-slide-right h2.tagline,.page-template-beneteau-template .boat-slide-right h2.tagline {
+    text-align: center;
+}
+.page-template-oceanis46-1 .profile_con-in {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.page-template-oceanis34-1 section.specification .container-fluid,
+.page-template-first53 section.specification .container-fluid{
+    padding: 0 40px;
+}
+
+
+
+}
+@media (max-width:768px) {
+    .page-template-oceains30-1 .profile_con h4 {
+        font-size: 14px;
+    }
+
+    .about_con p {
+        padding-right: 0px;
+    }
+
+    .profile_con h4 {
+        font-size: 18px;
+    }
+
+    .speci_con_new ul li {
+        width: 100%;
+    }
+
+    .speci_con_new ul li {
+        font-size: 16px;
+        margin-bottom: 14px !important;
+    }
+
+    .left-interior-con {
+        width: 400px;
+        background: #0C2169;
+        color: #fff;
+        position: absolute;
+        clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+        z-index: 999;
+        bottom: 0;
+    }
+
+    .offcanvas .nav-item .nav-link img {
+        width: 100%;
+        height: 100%;
+        max-width: 60px;
+    }
+
+    .offcanvas-body {
+        padding-top: 40px;
+    }
+
+    .sub-list h4 {
+        font-size: 1.1rem;
+    }
+
+    .sub-list a {
+        font-size: 12px;
+    }
+
+    .main_profile_img img {
+        padding: 7%;
+    }
+
+    .speci_con_new {
+        padding: 30px 74px 30px;
+        text-align: center;
+    }
+
+    .speci_con_new ul li {
+        width: 50%;
+        text-align: left;
+    }
+
+    .speci_con_new {
+        width: 71%;
+    }
+
+    section.profile_section .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    .swiper-slide.swiper-slide-active img {
+        transform: scale(0.9);
+    }
+
+    .swiper-slide img {
+        transform: scale(1.2);
+        display: block;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+
+    .deck_con .tagline {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .deck_slide {
+        border: 0px solid #0C2169;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .deck_con ul li {
+        color: #0C2169;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Avenir";
+        list-style: inside;
+    }
+
+    .speci_con_new {
+        width: 100%;
+    }
+
+    .deck_slide {
+        width: 100%;
+    }
+
+    .deck_con ul li {
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .page-template-oceains30-1 .deck_con ul li {
+        font-size: 16px !important;
+    }
+
+    .deck_con .tagline {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .left-interior-con {
+        position: relative;
+        clip-path: none;
+
+    }
+
+    .left-interior {
+        width: 100%;
+        background: #0c2169;
+        clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+        border-radius: 200px 200px 0% 0%;
+        overflow: hidden;
+        padding-bottom: 70px;
+    }
+
+    .left-interior-con p {
+        text-align: center;
+    }
+
+    .left-interior-con {
+        position: relative;
+        clip-path: none;
+        width: 100%;
+    }
+
+    .left-interior::after {
+        width: 100%;
+        content: "";
+        height: 131px;
+        background: #f26715;
+        z-index: 99999;
+        position: absolute;
+        bottom: 0;
+        clip-path: polygon(0 92%, 113% 0, 100% 100%, 0% 100%);
+    }
+
+
+    .left-interior-con::after {
+        clip-path: polygon(0 84%, 100% 19%, 100% 88%, 0% 100%);
+        display: none;
+
+    }
+
+    .desktop-header_row {
+        padding: 0px 49.5px;
+        flex-direction: row-reverse;
+    }
+
+    .desktop-header {
+        width: 90%;
+        border-radius: 0px;
+        background: #0c2169;
+    }
+
+    .desktop-header_btn img {
+        margin-right: 10px;
+        width: 40px;
+        object-fit: cover;
+        height: 30px;
+        object-position: left;
+        filter: brightness(0) invert(1);
+        position: absolute;
+        top: 18px;
+    }
+
+    .desktop-header_container {
+        flex-grow: 1;
+        order: 1;
+    }
+
+    .desktop-header_logo img {
+        filter: brightness(0) invert(1);
+    }
+
+    .desktop-header::before {
+        display: none;
+    }
+
+    .offcanvas-header.bg-white .desktop-header_logo img {
+        width: 270px;
+        max-width: 270px;
+        padding: 10px 20px;
+        filter: inherit;
+        margin: 0 !important;
+    }
+    .offcanvas-header.bg-white .desktop-header_logo {
+        padding: 2px 0px;
+    }
+    .desktop-header::before, .desktop-header::after {
+        height: 153px;
+        margin-right: -10px;
+    }
+
+    .desktop-header {
+        position: relative;
+    }
+
+    .desktop-header_row {
+        padding: 0px 20px;
+        flex-direction: row-reverse;
+    }
+
+    img.for_dec {
+        display: block;
+    }
+
+    img.for_fon {
+        width: 100%;
+        /*padding: 0px 32px 10px;*/
+        display: none !important;
+    }
+
+
+
+    img.phone_ft {
+        display: block;
+    }
+
+    .boat-section h2 {
+        font-size: 40px;
+    }
+
+    .desktop-header_logo img {
+        width: 300px;
+        margin: 50px 64px 0px 44px !important;
+        padding: 10px 14px 20px 14px;
+    }
+
+    .vrtcl-slider ul.slick-dots {
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+
+    .footer-text {
+        text-align: center;
+        margin-bottom: 130px;
+    }
+
+    .boat-section h2 {
+        font-size: 30px;
+    }
+
+    .right-interior img {
+        padding: 30px 0px 50px 0px;
+    }
+    .page-template-oceanis34-1 .right-interior img {
+        padding: 30px 0px 20px 0px;
+    }
+
+    .hero_bg-image {
+        height: 100%;
+    }
+
+    .left-interior-con p {
+        font-size: 17px;
+        line-height: 26px !important;
+    }
+    .page-template-sailboat .direction-graphic-wrapper {
+        left: -4px;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 17px;
+    }
+    .desktop-header_row {
+        justify-content: start;
+    }
+    .desktop-header::before, .desktop-header::after {
+        height: 153px;
+        margin-right: -10px;
+    }
+    .page-template-oceains30-1 .abt .row{
+        justify-content: center !important;
+    }
+    .page-template-oceains30-1 .abt .row>div {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    .page-template-oceains30-1 .abt .row>div.col-md-4 {
+        flex: 0 0 50.333333%;
+    }
+    
+    .page-template-oceains30-1 .con_right {
+        margin-top: 20px;
+    }
+    .page-template-oceains30-1 section.abt_main_video {
+        margin-top: 0px !important;
+    }
+    .page-template-oceains30-1 .about_con {
+        text-align: center;
+    }
+    .page-template-oceanis34-1 .interior_section .direction_con {
+        padding: 20px 0px 20px;
+    }
+    .page-template-oceanis34-1 .direction_con .tagline {
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .page-template-oceanis34-1 .left-interior-con p {
+        font-size: 20px;
+        padding: 0 50px;
+    }
+
+#stickingForm .wpcf7 form.invalid .wpcf7-response-output, #stickingForm .wpcf7 form.unaccepted .wpcf7-response-output, #stickingForm .wpcf7 form.payment-required .wpcf7-response-output {
+    font-size: 14px;
+}
+
+#stickingForm .wpcf7-form .wpcf7-spinner {
+    position: absolute;
+    right: 0;
+    top: 1.65rem;
+    width: 24px;
+}
+
+}
+
+@media(max-width:767px) {
+    .vrtcl-slider .slick-list {
+        padding: 0;
+    }
+
+    .page-template-oceains30-1 .tagline-tra {
+        padding: 30px 50px 0 !important;
+    }
+
+    .page-template-oceains30-1 .left-interior-con {
+        width: 100% !important;
+        height: 66%;
+    }
+
+    .page-template-oceains30-1 .deck_con ul {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .page-template-oceains30-1 .profile_secthirty .col-md-4 {
+        margin: 0 0 10px;
+    }
+
+
+    .abt_main_video .container {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .speci_con_new.new1 {
+        display: none;
+    }
+
+    .speci_con_new.new2 {
+        display: block;
+    }
+
+    .swiper-slide img {
+        transform: scale(1);
+        display: block;
+    }
+
+    .page-template-oceains30-1 .swiper-slide.swiper-slide-active img {
+        transform: scale(1) !important;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .swiper-slide.swiper-slide-prev img {
+        margin-left: 0;
+    }
+
+    .deck_con ul {
+        padding-left: 0px;
+    }
+
+    .speci_con_new ul li span {
+        font-weight: bold;
+        display: block;
+    }
+
+    .sectionpur .col-lg-8 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .sectionpur .col-lg-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    img.for_dec {
+        display: none;
+    }
+
+    img.for_fon {
+        display: block !important;
+    }
+
+
+    section.pt-5.sectionpur {
+        padding: 0 !important;
+        margin-top: 90px;
+    }
+
+    .wrapsec .direction_graphic-white::after {
+        top: 20%;
+        box-shadow: 0px 7px 0 var(--color-secondary);
+    }
+
+    section.mid-manner.wrapsec {
+        margin-top: 150px;
+    }
+
+    .page-id-221 .direction-graphic-wrapper-white {
+        position: relative;
+        top: -140px;
+    }
+    .page-template-sailboat .direction-graphic-wrapper {
+        left: 0;
+    }
+
+    .speci_con_new ul li {
+        border-bottom: 0px solid #fff;
+        width: 100%;
+    }
+
+    .speci_con_new {
+        width: 71%;
+    }
+    .page-template-oceanis34-1 .direction_con {
+        padding: 0px 0;
+    }
+    .page-template-oceanis34-1 .speci_con_new,
+    .page-template-first53 .speci_con_new {
+        padding: 60px 70px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .page-template-oceanis34-1 .speci_con_new ul li {
+        font-size: 16px;
+        text-align: center;
+    }
+    .page-template-oceanis34-1 .interior_section .direction_con {
+        padding: 0px 0px 20px;
+    }
+    .page-template-oceanis34-1 .right-interior img {
+        padding: 0px 0px 0px 0px;
+    }
+    .full-sticky-form button {
+        width: 34px;
+    }
+    .full-sticky-form .form-boxed {
+        max-width: 286px;
+        padding: 30px 12px 10px;
+    }
+
+    .full-sticky-form .wpcf7-form input, .full-sticky-form .wpcf7-form select, .full-sticky-form .wpcf7-form textarea {
+        height: 30px;
+        padding: 25px;
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .full-sticky-form .wpcf7-form textarea {
+        height: 75px;
+    }
+    .full-sticky-form .wpcf7-form .wpcf7-response-output {
+        margin-top: 18px !important;
+    }
+
+}
+
+
+@media(max-width:600px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 30px;
+    }
+
+    section.abt {
+        padding: 26px 0px;
+        position: relative;
+    }
+
+    .left-interior img {
+        height: 300px;
+    }
+
+    .tagline {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .offcanvas-body .col-lg-10 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .offcanvas-body .col-lg-2 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .offcanvas-body {
+        padding-top: 226px;
+    }
+
+    .offcanvas-header.bg-white .desktop-header_logo img {
+        width: 270px;
+        padding-right: 17px;
+        filter: inherit;
+        margin: 0px !important;
+        padding-left: 0px;
+    }
+
+    #pills-tab {
+        width: 100%;
+    }
+
+    .sub-list {
+        margin-bottom: 30px;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .offcanvas .nav-item .nav-link img {
+        width: 100%;
+        height: 100%;
+        max-width: 86px;
+    }
+
+
+    .deck_slide {
+        padding: 0px;
+    }
+
+    .left-interior {
+        width: 90%;
+    }
+
+    section.specification {
+        padding: 20px 0px 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .page-template-oceanis34-1 section.specification,
+    .page-template-oceains30-1 section.specification {
+        width: 100%;
+    }
+
+    .speci_con_new {
+        padding: 70px 30px 70px;
+        text-align: center;
+    }
+
+    .desktop-header_row {
+        padding: 0px 20px;
+        flex-direction: row-reverse;
+    }
+
+    .desktop-header_logo img {
+        width: 270px;
+        margin: 26px 65px 0px 24px;
+    }
+
+    .offcanvas-header.bg-white .desktop-header_logo img {
+        width: 270px;
+        margin: 0px;
+    }
+
+    .desktop-header_btn img {
+        margin-right: 10px;
+        width: 25px;
+        object-fit: cover;
+        height: 20px;
+        object-position: left;
+        filter: brightness(0) invert(1);
+        position: absolute;
+        top: 10px;
+    }
+
+    .desktop-header_logo img {
+        width: 270px;
+        margin: 26px 65px 0px 24px;
+        padding: 4px 14px 4px 14px;
+    }
+
+    .offcanvas-header .btn-close {
+        padding: 6px;
+    }
+
+    .left-interior::after {
+        clip-path: polygon(0 59%, 120% 0, 100% 100%, 0% 100%);
+    }
+
+    .left-interior {
+        clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 94%);
+    }
+
+    .main_profile_sec {
+        clip-path: polygon(0 5%, 100% 0%, 100% 85%, 0 96%);
+        padding: 47px 0px 1px !important;
+    }
+
+    .left-interior::after {
+        height: 100px;
+
+    }
+
+    img.pro_img {
+        width: 114px;
+    }
+
+    .deck_sec .swiper-slide {
+        padding: 0px 0 !important;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .about_con h3 {
+        font-size: 24px;
+    }
+
+    .about_con h2 {
+        font-size: 24px;
+    }
+
+    .left-interior::after {
+        height: 111px;
+    }
+    .page-template-sailboat .direction-graphic-wrapper {
+        left: 0;
+    }
+    .desktop-header_logo img {
+        margin: 40px 64px 0px 34px !important;
+        padding: 10px 14px 17px 14px;
+        width: 250px;
+    }
+    .desktop-header::before, .desktop-header::after {
+        height: 126px;
+        margin-right: -6px;
+    }
+    .desktop-header_btn img {
+        top: 14px;
+    }
+    .page-template-oceains30-1 .abt .row>div.col-md-4 {
+        flex: 0 0 96.333333%;
+    }
+    .page-template-oceanis34-1 .left-interior-con p {
+        font-size: 16px;
+        padding: 30px 30px 10px;
+    }
+    .page-template-oceanis34-1 .speci_con_new {
+        padding: 70px 30px;
+    }
+    .page-template-oceanis34-1 .download-the-brochure {
+        padding: 2px 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .main-category-text,
+    .main-category-img {
+        margin: 0;
+    }
+
+    .social-media a {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .social-media {
+        padding: 20px 8px;
+    }
+
+    .item-wrapper h3 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .all-boats .row .col-lg-6.mb-5 {
+        margin-bottom: 1rem !important;
+        padding: 0;
+    }
+
+    footer .tagline {
+        max-width: 255px;
+        margin: auto;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .footer-text p {
+        margin: 1rem auto;
+        max-width: 276px;
+    }
+
+    .boat-section h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .left-interior {
+        border-radius: 80px 80px 0% 0%;
+    }
+
+    .page-template-oceains30-1 .left-interior {
+        border-radius: 100px 100px 0% 0%;
+    }
+
+    .left-interior img {
+        height: 200px;
+    }
+    .page-template-oceanis46-1 .intirior-in-img {
+        border-radius: 100px 100px 0 0;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .left-interior::after {
+        height: 93px;
+    }
+
+    /*.page-template-oceains30-1 .ctb-video-in video {
+    padding: 30px;
+}*/
+    .page-template-oceains30-1 .tagline-tra {
+        padding: 30px 26px 0 !important;
+        text-align: center;
+    }
+
+    section.freedom_section {
+        padding: 42px 0px;
+    }
+
+    .freedom_heading-wrapper {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .freedom_row {
+        display: block;
+    }
+
+    .freedom_content {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+        border-left: 0;
+    }
+
+    .freedom_heading-wrapper {
+        padding: 0 20px;
+    }
+
+    .logo-strip_row {
+        display: block;
+        gap: 0;
+        border-radius: 1000px;
+        padding: 91px 30px;
+    }
+
+    .logo-strip_section {
+        padding: 10px 20px;
+    }
+
+    section.choose_section {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .freedom_heading {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .freedom_content p {
+        text-align: center;
+    }
+
+    .logo-strip_item img {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+
+    .mid-manner2 .right-interior img {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .mid-manner2 .direction_graphic-white::after {
+        box-shadow: 0px 7px 0 var(--color-secondary);
+        top: 17%;
+    }
+
+    .mid-manner2 .direction_graphic-white {
+        padding: 30px 24px 10px 24px;
+        width: 100%;
+    }
+
+    .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 18px;
+        line-height: 25px !important;
+    }
+
+    .mid-manner2 .direction-graphic-wrapper-white {
+        position: relative;
+        padding: 0;
+    }
+
+    .page-id-221 .cont .blue-side-pill {
+        border-radius: 0 0 1000px 1000px;
+        overflow: hidden !important;
+        width: 100%;
+        height: 100% !important;
+        padding: 20px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    section.pt-5.sectionpur {
+        padding: 0 !important;
+    }
+
+    .sectionpur p {
+        text-align: center;
+    }
+
+    .page-id-221 .mid-manner .position-absolute {
+        padding: 0 0;
+    }
+
+    .page-id-221 .direction-graphic-wrapper-white {
+        position: relative;
+    }
+
+    .page-id-221 .direction_graphic-white {
+        width: 100%;
+    }
+
+    .direction_graphic-white h2 {
+        text-align: center !important;
+    }
+
+    img.desk-img {
+        display: none;
+    }
+
+    img.mobile-img {
+        display: block;
+    }
+
+    section.direction_section.deskro {
+        display: none;
+    }
+    .page-template-oceanis46-1 section.top-bann-sec img {
+        height: 33vh;
+    }
+
+
+}
+
+@media(max-width:390px) {
+
+    .btn-contact {
+        height: 260px;
+    }
+    .page-template-oceanis46-1 .bann-btm-left h2 {
+        font-size: 22px;
+    }
+    .page-template-oceanis46-1.bann-btm-left h1 {
+        font-size: 24px;
+    }
+    .page-template-oceanis34-1 .download-the-brochure {
+        padding: 2px 0px;
+    }
+    .page-template-oceanis34-1 .speci_con_new {
+        padding: 70px 31px;
+    }
+    .page-template-oceanis34-1 section.specification .container-fluid {
+        padding: 0 20px;
+    }   
+}
+
+@media(max-width:375px) {
+    .left-interior::after {
+        height: 101px;
+    }
+    .btn-contact {
+        height: 250px;
+    }
+    .page-template-oceanis46-1 section.top-bann-sec img {
+        height: 25vh;
+    }
+    .desktop-header_logo img {
+        margin: 30px 64px 0px 34px !important;
+        padding: 7px 4px 7px 14px;
+        width: 200px;
+    }
+    .desktop-header::before, .desktop-header::after {
+        height: 106px;
+        margin-right: -3spx;
+    }
+    .desktop-header_btn img {
+        top: 16px;
+    }
+}
+
+@media(max-width:320px) {
+    .left-interior::after {
+        height: 110px;
+    }
+    .btn-contact {
+        height: 200px;
+    }
+    .desktop-header_logo img {
+        margin: 30px 64px 0px 34px !important;
+        padding: 7px 4px 7px 14px;
+        width: 160px;
+    }
+    .desktop-header::before, .desktop-header::after {
+        height: 96px;
+        margin-right: -3px;
+    }
+    .desktop-header_btn img {
+        top: 16px;
+    }
+    .page-template-oceanis34-1 .speci_con_new {
+        padding: 60px 31px 60px;
+    }
+
+}
+
+
+section.direction_section.deskro.for-mbl {
+    display: none;
+}
+
+
+@media (min-width:2100px) {
+    .direction-graphic-wrapper {
+        top: calc(120% + 15px);
+    }
+    
+}
+
+@media (min-width:2500px) {
+    .direction-graphic-wrapper {
+        top: calc(150% + 15px);
+    }
+    .page-template-sailboat .direction-graphic-wrapper {
+        top: calc(110% + 7px);
+    }
+    .page-template-sailboat .direction_graphic-white {
+        margin-right: 20px;
+        width: 686px;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white{
+        width: 686px;
+    }
+    .direction_title {
+        font-size: 70px;
+        line-height: 85px;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 32px;
+        line-height: 55px !important;
+    }
+    .content-center h3 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .btn-contact{
+        font-size: 28px;
+    }
+    .content-center {
+        max-width: 400px;
+    }
+}
+
+@media (min-width:2800px) {
+    .direction_title {
+        font-size: 90px;
+        line-height: 110px;
+    }
+
+    .direction-graphic-wrapper {
+        top: calc(120% + 15px);
+    }
+    .page-template-sailboat .direction-graphic-wrapper {
+        top: calc(100% + 40px);
+    }
+}
+@media(min-width:3200px) {
+
+    p {
+        padding-right: 50px;
+        line-height: 60px !important;
+        font-size: 36px;
+    }
+
+    .page-template-oceains30-1 .ctb-video-in video {
+        border-radius: 660px;
+    }
+
+
+    .page-template-oceains30-1 .right-interior img {
+        width: 96%;
+    }
+
+    .page-template-oceains30-1 .main_logo img {
+        width: 90%;
+    }
+
+    .speci_con_new ul li {
+        margin-bottom: 44px !important;
+        font-size: 36px;
+    }
+
+    .swiper-slide {
+        padding: 240px 0 !important;
+    }
+
+    .speci_con_new {
+        padding: 70px 190px 59px;
+    }
+
+
+    .deck_con ul li {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .speci_con_new {
+        border-radius: 314px;
+    }
+
+    .left-interior {
+        padding: 0px 230px;
+        width: 100%;
+    }
+
+    .deck_slide {
+        border-radius: 1000px;
+        padding: 30px;
+        width: 77% !important;
+    }
+
+    .profile_con {
+        margin-bottom: 104px;
+    }
+
+    img.pro_img {
+        width: 170px;
+    }
+
+    .main_logo img {
+        width: 55%;
+    }
+
+    .profile_con h4 {
+        font-size: 36px;
+    }
+
+    .main_profile_sec {
+        padding: 112px 0px 16px;
+    }
+
+    .about_con h2 {
+        font-size: 54px;
+        line-height: 50px;
+
+    }
+
+    .about_con h3 {
+        font-size: 40px;
+        padding-top: 14px !important;
+    }
+
+    .pro_con p {
+        line-height: 50px !important;
+        font-size: 34px;
+        padding-top: 10px;
+    }
+
+    .profile_con {
+        margin-bottom: 130px;
+    }
+
+    .page-template-oceains30-1 .profile_con {
+        margin-bottom: 130px;
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .page-template-oceains30-1 .profile_con-in img {
+        width: 300px;
+    }
+
+    .tagline {
+        font-size: 50px;
+    }
+
+    .left-interior-con p {
+        padding: 24px 30px 60px;
+        font-size: 34px;
+        line-height: 49px !important;
+    }
+
+
+    .swiper-slide.swiper-slide-active img {
+        padding: 0px 85px 0px 85px;
+        transform: scale(1.2);
+    }
+
+    .swiper-slide img {
+        transform: scale(1.2);
+        display: block;
+        padding: 0px 85px 0px 85px;
+    }
+
+    /*.page-template-oceains30-1 .swiper-slide.swiper-slide-active img {
+    padding: 0px 40px 0px 95px;
+}*/
+
+
+    .mid-manner2 .direction_graphic-white .text-start {
+        font-size: 30px;
+        line-height: 40px !important;
+    }
+
+    .mid-manner2 .direction_graphic-white::after {
+        top: 20%;
+    }
+    .page-template-sailboat .mid-manner2 .direction_graphic-white {
+        margin-right: 50px;
+        width: 736px;
+    }
+    .page-template-sailboat .direction_graphic-white {
+        margin-right: 40px;
+        width: 736px;
+    }
+    .page-template-sailboat .direction-graphic-wrapper {
+        top: calc(110% + 67px);
+    }
+    .content-center h3 {
+        font-size: 45px;
+        line-height: 56px;
+    }
+    .btn-contact {
+        font-size: 28px;
+        width: fit-content;
+        padding: 20px 80px;
+        margin: auto;
+    }
+    .content-center {
+        max-width: 500px;
+    }
+
+
+
+}
+.vrtcl-slider ul.slick-dots {
+    margin-bottom: 0;
+}
+
+.left-interior p {
+    padding-top: 10px;
+}
+
+.direction_con {
+    padding: 40px 0;
+}
+
+.page-template-oceains30-1 .left-interior img.fr-phn {
+    display: none;
+}
+
+ul.slick-dots {
+    padding-left: 0 !important;
+}

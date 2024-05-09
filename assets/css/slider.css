@@ -1,0 +1,201 @@
+.vrtcl-slider .slick-slide.slick-current.slick-active + .item {
+  transform: scale(2);
+}
+
+.slick-slide img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.vrtcl-slider .slick-list {
+  z-index: 9;
+}
+
+.vrtcl-slider .slick-slide.slick-current.slick-active + .item {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.slick-slider {
+  -webkit-tap-highlight-color: transparent;
+  background-image: url(https://nvsailing.com/wp-content/uploads/2023/02/neeraj_2.png);
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.slick-slide img {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+.vrtcl-slider:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: -webkit-fill-available;
+  width: 100%;
+  background-image: url(https://nvsailing.com/wp-content/uploads/2023/02/1.3-2.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: flex;
+  justify-content: center;
+  background-position: top center;
+  align-items: center;
+  z-index: -1;
+}
+button.slick-prev.slick-arrow {
+  background: transparent;
+  border: transparent;
+  color: #ffffff00;
+  width: 50%;
+  height: 80%;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+
+button.slick-next.slick-arrow {
+  background: transparent;
+  border: transparent;
+  color: #ffffff00;
+  width: 50%;
+  right: 0;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+.vrtcl-slider .slick-list {
+  padding: 13% 0;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+section.main-img-slider.desk {
+  overflow: hidden;
+  position: relative;
+}
+
+.page-template-sailboat section.main-img-slider.desk {
+  background-image: unset !important;
+}
+
+.boat-slider-sec .slick-slider {
+  background-image: unset !important;
+}
+
+@media (max-width: 425px) {
+  .slick-slide img {
+    display: block;
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 1px;
+  }
+  .vrtcl-slider:after {
+    background-size: 99%;
+  }
+  section.main-img-slider.desk {
+    background-position: -3px 0px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .slick-slide img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .vrtcl-slider:after {
+    background-size: 85%;
+  }
+}
+
+@media (max-width: 766px) {
+  .slick-slider {
+    background-position: -2px 0px;
+  }
+  section.main-img-slider.mob {
+    display: none !important;
+  }
+  .desk {
+    display: block !important;
+  }
+
+  .vrtcl-slider .slick-slide.slick-current.slick-active + .item {
+    transform: inherit !important;
+  }
+
+  .slick-slider {
+    -webkit-tap-highlight-color: transparent;
+    background-image: initial;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  section.main-img-slider.desk {
+    -webkit-tap-highlight-color: transparent;
+    background-image: url(https://nvsailing.com/wp-content/uploads/2023/02/neeraj_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: -3px 0px;
+  }
+
+  .slick-slide img {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+  }
+  section.main-img-slider.desk .container-fluid {
+    padding: 0 0px;
+  }
+
+  button.slick-next.slick-arrow {
+    right: -42px;
+  }
+  button.slick-prev.slick-arrow {
+    left: -42px;
+  }
+  .vrtcl-slider:after {
+    background-size: 85%;
+  }
+}
+
+@media (max-width: 528px) {
+  .slick-slide img {
+    display: block;
+    width: 93%;
+    margin: 0 auto;
+  }
+  .vrtcl-slider:after {
+    background-size: 87%;
+  }
+}
+
+@media (max-width: 768px) {
+  .slick-slider {
+    background-position: -8px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .slick-slider {
+    background-position: -8px 0px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .slick-slider {
+    background-position: -17px 0px;
+  }
+}
+
+@media (min-width: 2375px) {
+  .slick-slider {
+    background-position: -20px 0px;
+  }
+}
